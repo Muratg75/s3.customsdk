@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <PackageId>s3.customsdk</PackageId>
+    <Version>1.0.0</Version>
+    <Authors>Murat Girgin</Authors>
+    <Description>S3 object storage protocol SDK that dotnet client apps connects to Amazon S3, Minio or RustFS platforms</Description>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageTags>S3;SDK;AWS;Minio;RustFS;Storage</PackageTags>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="README.md" Pack="true" PackagePath="\"/>
+  </ItemGroup>
+
+</Project>
